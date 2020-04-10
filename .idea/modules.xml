@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/otms.iml" filepath="$PROJECT_DIR$/otms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/jhhweb.iml" filepath="$PROJECT_DIR$/.idea/jhhweb.iml" />
     </modules>
   </component>
 </project>
