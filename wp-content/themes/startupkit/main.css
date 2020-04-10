@@ -114,6 +114,16 @@
     width: 70%;
 }
 
+.nav-item {
+    font-size: 2rem!important;
+}
+
+@media (max-width: 1023px){
+    .header .logo img {
+        width: 160px!important;
+    }
+}
+
 @media screen and (max-width: 1800px){
     .mian_title {
         padding: 30px 0 0 0!important;
@@ -450,7 +460,7 @@
 
 .case_page2_box {
     padding: 0 30px;
-    margin: 20px 0;
+    margin: 20px 0 0 0;
 }
 
 .case_page2_block {
@@ -468,6 +478,22 @@
     text-align: center;
     color: white;
     font-size: 22px;
+}
+
+.case_page3 {
+    padding: 40px 0;
+}
+
+.case_page3_text {
+    font-size: 20px;
+    color: #666666;
+}
+
+.case_page3_name {
+    font-size: 22px;
+    color: #666666;
+    padding: 0;
+    margin: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -505,7 +531,7 @@
 
 .implementation_page1_line3 {
     font-size: 26px;
-    color: #000000;
+    color: #575656;
     padding: 40px 0;
 }
 
@@ -518,10 +544,11 @@
 .implementation_page1_right span {
     width: 80%;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 21px;
     color: #333333;
     display: block;
     padding-top: 40px;
+    line-height: 36px;
 }
 
 @media screen and (max-width: 768px){
@@ -542,7 +569,7 @@
     }
 }
 
-.implementation_page2 ,.implementation_page3 ,.implementation_page4 {
+.implementation_page2 ,.implementation_page3 {
     padding: 20px 0;
 }
 
@@ -583,6 +610,10 @@
     border-radius: 4px;
     width: 160px;
     height: 40px;
+    margin-top: 20px;
+}
+
+.implementation_page4 {
     margin-top: 20px;
 }
 

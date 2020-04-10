@@ -20,6 +20,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -43,11 +49,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586484450113</updated>
-      <workItem from="1586484451245" duration="1225000" />
+      <workItem from="1586484451245" duration="3649000" />
+      <workItem from="1586504492969" duration="3253000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="587" y="221" width="746" height="598" key="find.popup" timestamp="1586506960436">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="587" y="221" width="746" height="598" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586506960436" />
   </component>
 </project>
