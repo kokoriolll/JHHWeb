@@ -16,7 +16,7 @@
 .our_product_brief_ul {
     list-style-type: none!important;
     overflow: hidden;
-    padding-inline-start: 0px;
+    padding: 0px;
 }
 
 .our_product_brief_ul li {
@@ -91,6 +91,12 @@
     width: 100px;
     content: "";
     margin-top: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer .footer-bottom{
+        margin-bottom: 0!important;
+    }
 }
 
 .btn_more {
@@ -517,6 +523,10 @@
     margin: 0;
 }
 
+.case_page3_name img {
+    max-height: 38px;
+}
+
 @media screen and (max-width: 768px) {
     .case_page2_box p {
         font-size: 18px;
@@ -532,6 +542,10 @@
         height: 180px!important;
         padding: 0 30px;
         margin: 20px 0 0 0;
+    }
+
+    .case_page3_name img {
+        max-height: 34px;
     }
 }
 

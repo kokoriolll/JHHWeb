@@ -27,7 +27,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/themes/startupkit/assets/plugins" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Jquery" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,7 +65,7 @@
       <workItem from="1586484451245" duration="3649000" />
       <workItem from="1586504492969" duration="6425000" />
       <workItem from="1586566673260" duration="15093000" />
-      <workItem from="1586739557868" duration="696000" />
+      <workItem from="1586739557868" duration="6455000" />
     </task>
     <servers />
   </component>
@@ -73,14 +73,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1586567668447">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1586744149852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586567668447" />
-    <state x="1067" y="215" width="746" height="598" key="find.popup" timestamp="1586596428332">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586744149852" />
+    <state x="1067" y="215" width="746" height="598" key="find.popup" timestamp="1586741569503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1067" y="215" width="746" height="598" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586596428332" />
+    <state x="1067" y="215" width="746" height="598" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586741569503" />
     <state x="601" y="235" width="700" height="530" key="recent.locations.popup" timestamp="1586568710083">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
