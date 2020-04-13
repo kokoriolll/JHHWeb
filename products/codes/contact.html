@@ -136,13 +136,13 @@
         <div class="container">
             <div class="contact_page1_box col-xs-12">
                 <h1 class="col-xs-12 text-center contact_page1_title">给我们留言</h1>
-                <input class="col-md-6 col-xs-12 contact_page1_text" placeholder="您的联系人姓名" type="text">
-                <input class="col-md-6 col-xs-12 contact_page1_text" placeholder="您的联系方式" type="text">
-                <input class="col-md-6 col-xs-12 contact_page1_text" placeholder="您的电子邮箱" type="text">
-                <input class="col-md-6 col-xs-12 contact_page1_text" placeholder="您的单位名称" type="text">
-                <textarea class="col-xs-12" placeholder="输入留言"></textarea>
+                <input id="contact_name" class="col-md-6 col-xs-12 contact_page1_text contact_input" placeholder="您的联系人姓名" type="text">
+                <input id="contact_phone" class="col-md-6 col-xs-12 contact_page1_text contact_input" placeholder="您的联系方式" type="text">
+                <input id="contact_email" class="col-md-6 col-xs-12 contact_page1_text contact_input" placeholder="您的电子邮箱" type="text">
+                <input id="contact_company" class="col-md-6 col-xs-12 contact_page1_text contact_input" placeholder="您的单位名称" type="text">
+                <textarea id="contact_text" class="col-xs-12 contact_input" placeholder="输入留言"></textarea>
                 <div class="col-xs-12 text-center">
-                    <button class="contact_page1_btn">提交信息</button>
+                    <button id="contact_btn" class="contact_page1_btn">提交信息</button>
                 </div>
             </div>
         </div>
@@ -203,6 +203,30 @@
 </div>
 
 <script>
+
+    $(function () {
+
+        var $inputArr = $(".contact_input");
+        $("#contact_btn").click(function () {
+            for (var i = 0;$inputArr.length > i;i++) {
+                var $inputEvent = $inputArr[i];
+                checkFrom($inputEvent.value);
+            }
+        });
+
+        function checkFrom(eventValue,event) {
+            if (eventValue === ""){
+                alert("请填入有效内容");
+                event.preventDefault()
+            }
+        }
+
+    });
+
+
+</script>
+
+<script>
     $(function () {
 
         f();
@@ -229,7 +253,7 @@
 
 <script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak="></script>
 <script type="text/javascript">
-    alert("↑样式和位置已经设置好，网站上架之前添加百度地图密钥↑");
+    /*alert("↑样式和位置已经设置好，网站上架之前添加百度地图密钥↑");*/
     // 百度地图API功能
     var map = new BMap.Map("allmap");
     var point = new BMap.Point(114.46661,38.020643);
@@ -371,17 +395,17 @@
     <div class="footer-bottom">
         <div class="container hidden-xs">
             <div class="row ">
-                <!-- <small>Copyright @ 2017 oTMS.com <span style="margin-left: 30px;">沪ICP备15021560号-2</span><span style="margin-left: 30px;"><a href="javascript:;">隐私政策</a></span></small> -->
-                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 item-one"><small>Copyright @ 2020</small></div>
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"><small><a href="" target="_blank">隐私政策</a> &nbsp;&nbsp;<a href="" target="_blank">网站地图</a></small></div>
-                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12"><small><a href="" target="_blank">XICP备XXXXXXXX0号-X</a></small></div>
+                <!-- <small>Copyright @ 2017 oTMS.com <span style="margin-left: 30px;">冀ICP备17017374号-1</span><span style="margin-left: 30px;"><a href="javascript:;"></a></span></small> -->
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 item-one"><small>Copyright @ 2020 jhhsoft.com</small></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"><small><a href="" target="_blank"></a> &nbsp;&nbsp;<a href="" target="_blank">网站地图</a></small></div>
+                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12"><small><a href="" target="_blank">冀ICP备17017374号-1</a></small></div>
             </div>
         </div>
         <div class="hidden visible-xs footer-bottom-small">
             <div class="content">
-                <small>Copyright @ 2020 oTMS.com</small>
-                <small>沪ICP备15021560号-2</small>
-                <small><a href="">隐私政策</a></small>
+                <small>Copyright @ 2020 jhhsoft.com jhhsoft.com</small>
+                <small>冀ICP备17017374号-1</small>
+                <small><a href=""></a></small>
             </div>
         </div>
 
